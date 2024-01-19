@@ -1,19 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&display=swap');
 
 :root {
-    --primary-color: #A5D3F3;
-    --secondary-color: #C49991;
-    --accent1-color: #595457;
-    --accent2-color: #57A773;
+    --primary-color: #3498db;
+    --secondary-color: #0CBABA;
+    --accent1-color: #E0D0C1;
+    --accent2-color: #E9AFA3;
 
-    --heading-font: "Volkburn SemiBold 600", serif;
-    --paragraph-font: "Volkburn Regular 400", serif;
+    --heading-font: "Roboto Mono";
+    --paragraph-font: "Roboto Mono";
 
-    --nav-background-color: #A5D3F3;
-    --nav-link-color: #C49991;
-    --nav-hover-link-color: #595457;
-    --nav-hover-background-color: #57A773;
+    --nav-background-color: #E0D0C1;
+    --nav-link-color: #0CBABA;
+    --nav-hover-link-color: #3498db;
+    --nav-hover-background-color: #E9AFA3;
 
 }
 
