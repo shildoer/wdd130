@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300&display=swap');
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #0CBABA;
+    --accent1-color: #E0D0C1;
+    --accent2-color: #E9AFA3;
+    --default-color: #F8F8FF;
+
+    --heading-font: "Roboto Mono";
+    --paragraph-font: "Roboto Mono";
+
+    --nav-background-color: #E0D0C1;
+    --nav-link-color: #0CBABA;
+    --nav-hover-link-color: #3498db;
+    --nav-hover-background-color: #E9AFA3;
+    
+
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    text-align: center;
+    color : var(--primary-color);
+    top : 10px;
+    left : 300px;
+    background-color : rgba(239, 222, 205, .5);
+     }
+
+.hero article {
+    position : absolute;
+    color : var(--default-color);
+    top : 0;
+    background-color : rgba(239, 222, 205, .1);
+    
+    }
+
+.hero article img {
+    float : right;
+    width : 150px;
+    height : auto;
+    }
+
+.hero article p {
+    color : var(--);
+    }
+
+section img {
+    max-width : 600px;
+    height : auto;
+    }
+
+.sociallinks img {
+    width : 50px;
+    height : auto;
+    }
+.sociallinks a {
+    text-decoration : none;
+    }
