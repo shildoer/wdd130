@@ -29,32 +29,57 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header {
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
     padding: 20px;
     background-color: var(--accent1-color)
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 220px 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 200px;
+	height: auto;
 }
 
 p {
     padding: 25px;
 }
 
-nav {
+.navigation {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
+.navigation {
+	display: flex;
+	list-style: none;
+}
 
-nav a {
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
     display: block;
     color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+.navigation a:link, nav a:visited {
     color: var(--nav-hover-link-color);
 }
 
-nav a:hover {
+.navigation a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
@@ -94,15 +119,54 @@ nav a:hover {
     color : var(--);
     }
 
+h2 {
+    text-align: center;
+}
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adventure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 section img {
-    max-width : 600px;
-    height : auto;
+    max-width : 220px;
+    height : 150px;
+    }
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    }
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
     }
 
 .sociallinks img {
-    width : 50px;
-    height : auto;
-    }
+        width : 50px;
+        height : auto;
+        }
 .sociallinks a {
-    text-decoration : none;
-    }
+        text-decoration : none;
+        }
+footer {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    text-align: left;
+    background-color: var(--accent1-color)
+}
