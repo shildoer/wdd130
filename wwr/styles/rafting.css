@@ -160,6 +160,7 @@ figcaption {
 .sociallinks img {
         width : 50px;
         height : auto;
+        padding-top: 25px;
         }
 .sociallinks a {
         text-decoration : none;
