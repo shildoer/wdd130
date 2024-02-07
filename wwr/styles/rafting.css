@@ -171,3 +171,47 @@ footer {
     text-align: left;
     background-color: var(--accent1-color)
 }
+
+.employees {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.employees img {
+        max-width : 220px;
+        height : 150px;
+        }
+
+h1 {
+    text-align: center;
+}
+
+.map {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    padding: 10px;
+    max-width: 300px;
+    margin: auto;
+    }
+form {
+        margin: 0 auto;
+        width: 600px;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+}
+
+fieldset {
+    width: 600px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  button {
+    margin: 20px 0 0 0;
+  }
+  
+  label {
+    position: relative;
+    display: inline-block;
+  }
