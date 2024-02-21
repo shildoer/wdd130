@@ -215,3 +215,16 @@ fieldset {
     position: relative;
     display: inline-block;
   }
+  img {
+    max-width:100%;
+    height:auto;
+  }
+  .container {
+    display:flex;
+    width:90%;
+    margin:0 auto;
+  }
+  .box {
+    flex:1;
+    margin:0 4px;
+  }
